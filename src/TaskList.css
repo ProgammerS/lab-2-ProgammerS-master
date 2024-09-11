@@ -1,0 +1,75 @@
+.task-list-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #2c2c2c;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.task-list-container h1 {
+  font-size: 1.8em;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.task-list-container h2 {
+  font-size: 1.2em;
+  margin-bottom: 1.5rem;
+  color: #cccccc;
+}
+
+.task-group {
+  margin-bottom: 1.5rem;
+}
+
+.task-group h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.75rem;
+  color: #dddddd;
+  border-bottom: 1px solid #444444;
+  padding-bottom: 0.5rem;
+}
+
+.task-group ul {
+  padding-left: 1.5rem;
+}
+
+.task-group li {
+  font-size: 1.1em;
+  padding: 0.5rem 0;
+  color: #bbbbbb;
+  list-style-type: disc;
+}
+
+.task-group li:last-child {
+  border-bottom: none;
+}
+
+.delete-btn {
+  background-color: #555555;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #777777;
+}
+
+.delete-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(85, 85, 85, 0.4);
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
